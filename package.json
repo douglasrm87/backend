@@ -7,8 +7,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon ./app.js",
+<<<<<<< HEAD
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build"
+=======
+    "predeploy": "npm run server",
+    "deploy": "gh-pages -d build"
+    
+>>>>>>> b885358 (Deploy)
   },
   "keywords": [],
   "author": "",
