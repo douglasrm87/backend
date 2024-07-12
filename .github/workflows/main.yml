@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: douglasrm87/backend@v1.1
+        uses: douglasrm87/backend
         with:
           who-to-greet: 'Mona the Octocat - Bom dia'
       # Use the output from the `hello` step
