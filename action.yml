@@ -2,9 +2,9 @@ name: 'Hello World'
 description: 'Greet someone and record the time'
 inputs:
   who-to-greet:  # id of input
-    description: 'Who to greet'
+    description: 'Vamos Douglas'
     required: true
-    default: 'World'
+    default: 'Vamos Douglas'
 outputs:
   time: # id of output
     description: 'The time we greeted you'
