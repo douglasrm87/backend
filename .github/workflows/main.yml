@@ -3,11 +3,11 @@ on: [push]
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Deploy do Backend Reactgram - Douglas
     steps:
       - name: Hello world action step
         id: hello
-        uses: douglasrm87/backend@ref
+        uses: douglasrm87/backend@v1
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
