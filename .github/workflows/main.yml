@@ -5,8 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy do Backend Reactgram - Douglas
     steps:
-      - name: Hello world action step
-        id: hello
+      - name: Deploy do backend reactgram
+        id: backend
         uses: douglasrm87/backend@main
         with:
           who-to-greet: 'Mona the Octocat'
